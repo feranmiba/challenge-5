@@ -1,0 +1,124 @@
+
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    .img {
+        width: 1765px;
+        height: 1731px;
+    }
+    .atima {
+        position: absolute;
+        width: 780px;
+        font-size: 25px;
+    }
+    .start {font-size: 18px; }
+    .shi { margin-top: -67%; }
+       .row { padding: 0 2%; }
+       .design { font-size: 30px; }
+       .one { width: 520px;}
+       #intro { font-size: 20px;}
+       .hey {  width: 1100px;}
+       #state {font-size: 25px;}
+       .fuck {font-size: 5px;}
+       .phone {margin-left: -7%;}
+       .yam { margin-left: -70%; }
+       #open {font-size: 25px;}
+
+/*small tablet to big tablet:from 768px to1023px*/
+@media only screen and (max-width:1023px) {
+    
+ 
+}
+
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width:767px) {
+    .nav {
+      display: inline-block;
+      margin-left: -20%;
+ }
+ .bella {
+     margin-left: -85%;
+ }
+  header {
+       width: 800px;
+}
+.gation {
+    margin-left: -10%;
+    margin-top: 10%;
+}
+.atima {
+    width: 320px;
+    font-size: 15px;
+    top: 35%;
+    margin-left: 5%;
+}
+.start {
+    margin-top: 20%;
+}
+.shi {
+    margin-top: -95%;
+}
+.btn {
+    float: left;
+    display: none;
+}
+  .bu {
+    float: left;
+    display: none;
+}
+
+  .bu2 {
+    float: left;
+    display: none;
+}
+.img {
+    display: none;
+}
+.one {
+    display: none;
+}
+.phew {
+    display: inline-block;
+    margin-left: -10%;
+}
+ .mobile {
+    display: inline-block;
+}
+.design {
+    font-size: 25px;
+}
+#intro{ text-align: center; margin-right: 5%; width: 250px; font-size: 25px;}
+.hey {
+    margin-top: 60%;
+    width: 421.7px;
+}
+.big {
+    margin-left: -100%;
+    width: 800px;
+    height: 400px;
+}
+.fuck {
+    padding-top: 150px;
+    text-align: center;
+}
+.phone {
+    margin-top: -200%;
+    margin-left: -45%;
+}
+.yam {
+    display: none;
+}
+.water {
+    display: inline-block;
+    margin-top: -80%;
+    margin-left: -22%;
+}
+#open {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.row {
+    text-align: center;
+}
+/*Small phones: from 0 to480px*/
+@media only screen and (max-width:480px) {
+}
